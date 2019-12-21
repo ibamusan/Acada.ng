@@ -1,0 +1,266 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0.75rem 0;
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-primary{
+  color: chocolate;
+}
+
+.bg-dark{
+  background-color: black;
+  font-size: 16px;
+  color: #fff;
+  width: 800px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color:black;
+}
+.bg-text-primary{
+  background-color: chocolate;
+  font-size: 16px;
+  color: #fff;
+  width: 100px;
+  padding: 5px;
+  border-color: chocolate;
+}
+
+.bg-black{
+  background: black;
+}
+.bg-chocolate{
+  background: chocolate;
+}
+
+
+/* Navbar */
+nav h1 .img-logo{
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+nav h1 .text-primary{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#navbar{
+  background: black;
+  display: flex;
+  position: sticky;
+  top: 0;
+  color:#333;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#navbar ul li{
+  list-style: none;
+}
+
+#navbar ul li a{
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.45rem;
+}
+
+#navbar ul li a:hover{
+  background: chocolate;
+  border-radius: 5px;
+}
+
+/* Header/Banner */
+#banner{
+  background: #333 url(/images/banner.png) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.banner_logo{
+  margin-top: px;
+  height: 150px;
+  width: 150px;
+}
+
+.banner_details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+}
+
+.banner_details h1{
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.banner_details p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.banner_buttons .btn{
+  background-color:chocolate;
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  border-color:transparent;
+  color: #fff;
+  margin: 0px 10px;
+}
+
+.banner_buttons{
+  margin-top: 10px;
+}
+
+.h_who_we_are{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.who_we_are{
+  text-align: center;
+}
+
+.who_we_are p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#company .who_we_are button{
+  margin-bottom: 50px;
+}
+
+.container .fas{
+  margin: 5px 0px;
+  font-size: 50px;
+  color: chocolate;
+}
+
+#software{
+  background: url(/images/software_section.png);
+  margin: 30px 0px;
+}
+
+#software .container{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+#software .h_who_we_are{
+  padding: 20px;
+  color: #fff;
+}
+
+.exam_generation_software h2{
+  color: #fff;
+}
+
+.exam_generation_software p{
+  color: #fff;
+}
+
+#software .container button{
+  margin-bottom: 5px;
+}
+
+.container .exam_generation_software{
+  border: chocolate 2px solid;
+  margin: 20px 20px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.exam_generation_software .bg-text-primary{
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#contact{
+  display: flex;
+}
+
+#contact .contact_form{
+  margin-top: 100px;
+}
+
+#contact .map, #contact .contact_form{
+  flex: 1;
+}
+
+#contact .contact_form .form_group , #contact .contact_form p, #contact .contact_form h1, #contact .bg-dark {
+  margin: 20px ;
+}
+
+#contact .contact_form h1{
+  font-size: 40px;
+}
+
+#contact .contact_form p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#contact .contact_form label{
+  display: block;
+  font-size: 16px;
+}
+
+#contact .contact_form input,
+#contact .contact_form textarea{
+  width: 100%;
+  padding: 10px;
+}
+
+#contact .map{
+  margin-top: 100px;
+}
+
+#contact .map img{
+  align-items: center;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+footer .footer_detail{
+  margin-top: 100px;
+}
+footer .footer_detail p{
+  font-size: 16px;
+  color: #fff;
+  height: 100px;
+} 
